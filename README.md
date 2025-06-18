@@ -1,4 +1,8 @@
-# 🌲 Korelasi Deforestasi dan Volume Biomassa (2015–2024)
+# 🌲 Korelasi Deforestasi dan Volume Biomassa
+
+! [forest](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
+-----
+Halo sobat ETL ku dimanapun berada, repositori kali ini berisi weektask yang mengambil kasus Deforestasi dan Volume Biomassa. 
 
 Analisis ini bertujuan untuk mengeksplorasi hubungan antara deforestasi dan hilangnya volume biomassa di Indonesia selama satu dekade terakhir. Fokus khusus diberikan pada wilayah Sumatera sebagai salah satu pusat tekanan deforestasi nasional. Penelitian ini dilakukan dengan pendekatan kuantitatif menggunakan Python dan visualisasi data.
 
