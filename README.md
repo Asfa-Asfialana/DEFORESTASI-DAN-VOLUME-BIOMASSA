@@ -58,7 +58,7 @@ Biomassa adalah materi organik yang berasal dari makhluk hidup, seperti tanaman,
 
 Kali ini data yang saya gunakan adalah data sintetis yang berdasarkan pola umum deforestasi dan biomassa di Indonesia untuk keperluan simulasi analisis.
 
-Data dikompilasi dalam file `deforestasi-dan-biomassa.csv`.
+Data dikompilasi dalam file berikut ![data-deforestasi-dan-biomassa] (https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/data-deforestasi-dan-biomassa.csv)
 
 ---
 
