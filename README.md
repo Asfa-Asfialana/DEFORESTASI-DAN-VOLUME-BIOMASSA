@@ -1,11 +1,11 @@
 # 🌲 Korelasi Deforestasi dan Volume Biomassa
 
-! [forest](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
+! [FOREST](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
 
 -----
 Halo sobat ETL ku dimanapun berada, repositori kali ini berisi weektask yang mengambil kasus Deforestasi dan Volume Biomassa. 
 
-Analisis ini bertujuan untuk mengeksplorasi hubungan antara deforestasi dan hilangnya volume biomassa di Indonesia selama satu dekade terakhir. Fokus khusus diberikan pada wilayah Sumatera sebagai salah satu pusat tekanan deforestasi nasional. Penelitian ini dilakukan dengan pendekatan kuantitatif menggunakan Python dan visualisasi data.
+Analisis ini bertujuan untuk membantu upaya Indonesia dalam Transisi Hijau. Hasil analisis ini diharapkan mampu digunakan untuk mendorong kebijakan berkelanjutan, memantau emisi, dan memastikan penggunaan sumber daya yang tidak merusak lingkungan.
 
 ---
 
@@ -13,11 +13,23 @@ Analisis ini bertujuan untuk mengeksplorasi hubungan antara deforestasi dan hila
 
 ### 📌 Latar Belakang
 
-Indonesia merupakan salah satu negara dengan kawasan hutan tropis terluas di dunia, namun menghadapi tantangan serius berupa deforestasi yang masif setiap tahunnya. Aktivitas pembukaan lahan, konversi hutan untuk perkebunan, dan praktik penebangan ilegal telah menyebabkan hilangnya tutupan hutan yang berdampak besar terhadap lingkungan.
+Perubahan iklim global dan tingginya emisi gas rumah kaca telah mendorong dunia untuk melakukan transisi energi hijau, yaitu peralihan dari energi fosil ke energi ramah lingkungan seperti tenaga surya, angin, dan biomassa. Namun, pemanfaatan biomassa harus disertai pengelolaan hutan yang berkelanjutan. Jika tidak, justru akan mempercepat deforestasi dan memperburuk kerusakan lingkungan.
 
-Salah satu dampak langsung dari deforestasi adalah berkurangnya **biomassa**, yaitu total massa organik yang tersimpan dalam vegetasi hidup. Biomassa ini memainkan peran penting sebagai penyerap karbon alami. Ketika pohon ditebang, karbon yang tersimpan dilepaskan ke atmosfer dan mempercepat laju perubahan iklim.
+Indonesia sebagai negara dengan hutan tropis terbesar ketiga di dunia memiliki peran strategis dalam menjaga keseimbangan ekosistem dan mendukung transisi hijau. Sayangnya, laju deforestasi di Indonesia masih tinggi, terutama akibat ekspansi perkebunan, kebakaran hutan, dan penebangan ilegal.
 
-Analisis ini dilakukan untuk memahami bagaimana besarnya hubungan antara deforestasi dan hilangnya volume biomassa. Pengetahuan ini penting untuk mendukung pengambilan kebijakan berbasis bukti.
+Dengan memahami hubungan antara deforestasi dan penurunan volume biomassa, kita bisa:
+
+- Menganalisis dampaknya terhadap emisi karbon dan krisis iklim
+
+- Menyusun kebijakan energi dan kehutanan yang lebih bijak
+
+- Memberikan rekomendasi solusi untuk menjaga hutan sekaligus mendukung energi bersih
+
+1. Deforestasi
+Deforestasi adalah proses penghilangan hutan secara permanen untuk keperluan lain seperti pertanian, perkebunan, pemukiman, atau pertambangan. Kegiatan ini menyebabkan berkurangnya tutupan pohon alami, yang berdampak pada hilangnya keanekaragaman hayati, meningkatnya emisi karbon, dan terganggunya siklus air serta iklim global.
+
+2. Biomassa
+Biomassa adalah materi organik yang berasal dari makhluk hidup, seperti tanaman, kayu, limbah pertanian, atau alga. Biomassa bisa dimanfaatkan sebagai sumber energi terbarukan karena dapat dibakar atau diolah menjadi bioenergi (biofuel, biogas, dll).
 
 ### 🎯 Tujuan Analisis
 
