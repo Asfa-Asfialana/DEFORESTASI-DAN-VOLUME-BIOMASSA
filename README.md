@@ -1,4 +1,4 @@
-# 🌲 Korelasi Deforestasi dan Volume Biomassa
+# 🌲 Deforestasi dan Volume Biomassa
 
 ![FOREST](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
 
@@ -10,14 +10,14 @@ Proyek ini dibuat dalam menyelesaikan week task, agar kita lebih yang peduli lin
 
 Kenapa ini penting? Karena biomassa punya potensi besar sebagai energi hijau, tapi deforestasi bisa bikin cadangan biomassa menurun drastis. Lewat analisis data dan visualisasi, kita coba cari tahu seberapa besar dampaknya, dan bagaimana data ini bisa bantu mendukung **transisi energi hijau** yang adil dan berkelanjutan.
 
-Yuk, kita gali bareng-bareng! Semoga proyek ini bisa jadi referensi, inspirasi, atau bahkan langkah awal untuk ide besar berikutnya untuk kita semua🌏✨
+Yuk, kita gali bareng-bareng! Semoga proyek ini bisa jadi referensi, inspirasi, atau bahkan langkah awal ide besar berikutnya untuk kita semua🌏✨
 
 
 ---
 
 ## 🧭 Pendahuluan
 
-### 📌 Latar Belakang
+#### 📌 Latar Belakang
 
 Perubahan iklim global dan tingginya emisi gas rumah kaca telah mendorong dunia untuk melakukan transisi energi hijau, yaitu peralihan dari energi fosil ke energi ramah lingkungan seperti tenaga surya, angin, dan biomassa. Namun, pemanfaatan biomassa harus disertai pengelolaan hutan yang berkelanjutan. Jika tidak, justru akan mempercepat deforestasi dan memperburuk kerusakan lingkungan.
 
@@ -25,25 +25,25 @@ Indonesia sebagai negara dengan hutan tropis terbesar ketiga di dunia memiliki p
 
 Dengan memahami hubungan antara deforestasi dan penurunan volume biomassa, kita bisa:
 
-- Menganalisis dampaknya terhadap emisi karbon dan krisis iklim
-
 - Menyusun kebijakan energi dan kehutanan yang lebih bijak
 
 - Memberikan rekomendasi solusi untuk menjaga hutan sekaligus mendukung energi bersih
 
 1. Deforestasi
+   
 Deforestasi adalah proses penghilangan hutan secara permanen untuk keperluan lain seperti pertanian, perkebunan, pemukiman, atau pertambangan. Kegiatan ini menyebabkan berkurangnya tutupan pohon alami, yang berdampak pada hilangnya keanekaragaman hayati, meningkatnya emisi karbon, dan terganggunya siklus air serta iklim global.
 
 2. Biomassa
+   
 Biomassa adalah materi organik yang berasal dari makhluk hidup, seperti tanaman, kayu, limbah pertanian, atau alga. Biomassa bisa dimanfaatkan sebagai sumber energi terbarukan karena dapat dibakar atau diolah menjadi bioenergi (biofuel, biogas, dll).
 
-### 🎯 Tujuan Analisis
+#### 🎯 Tujuan Analisis
 
 - Mengukur korelasi antara tingkat kehilangan tutupan hutan dan kehilangan volume biomassa di Indonesia (2015–2024).
 - Menyediakan visualisasi data yang jelas dan informatif sebagai bukti visual hubungan tersebut.
 - Memberikan informasi berbasis data yang dapat digunakan oleh berbagai pihak untuk mendukung kebijakan dan aksi lingkungan.
 
-### 🌱 Manfaat Analisis
+#### 🌱 Manfaat Analisis
 
 | Pihak         | Manfaat                                                                 |
 |---------------|--------------------------------------------------------------------------|
@@ -54,14 +54,11 @@ Biomassa adalah materi organik yang berasal dari makhluk hidup, seperti tanaman,
 
 ---
 
-## 🗂️ Pembuatan Data Set
+### 🗂️ Pembuatan Data Set
 
-Data yang digunakan bersumber dari [Global Forest Watch](https://data.globalforestwatch.org/) yang mencakup:
-- Hilangnya tutupan hutan (tree cover loss) per tahun
-- Estimasi emisi karbon dan kehilangan biomassa dalam satuan CO2e
-- Spesifik untuk wilayah Sumatera dari tahun 2015–2024
+Kali ini data yang saya gunakan adalah data sintetis yang berdasarkan pola umum deforestasi dan biomassa di Indonesia untuk keperluan simulasi analisis.
 
-Data dikompilasi dalam file `biomassa_deforestasi_sumatera.csv`.
+Data dikompilasi dalam file `deforestasi-dan-biomassa.csv`.
 
 ---
 
