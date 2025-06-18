@@ -1,6 +1,6 @@
 # 🌲 Deforestasi dan Volume Biomassa
 
-![FOREST](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
+![transisi-hijau](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/transisi-hijau.png)
 
 -----
 
