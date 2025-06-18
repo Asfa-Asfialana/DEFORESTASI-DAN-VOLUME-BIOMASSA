@@ -78,7 +78,10 @@ Data dikompilasi dalam file berikut ![data-deforestasi-dan-biomassa](https://git
 
 ---
 
-## 🧪 Kode Python Analisis
+### 🧪 Kode Python Analisis
+
+Nah sobat ETL, kali ini saya akan menganalisis deforestasi dan biomassa dengan menggunakan library Pandas, Numpy, Matplotlib, dan Seaborn.
+
 
 ```python
 import pandas as pd
