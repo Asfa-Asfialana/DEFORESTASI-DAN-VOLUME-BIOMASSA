@@ -56,9 +56,25 @@ Biomassa adalah materi organik yang berasal dari makhluk hidup, seperti tanaman,
 
 ### 🗂️ Pembuatan Data Set
 
-Kali ini data yang saya gunakan adalah data sintetis yang berdasarkan pola umum deforestasi dan biomassa di Indonesia untuk keperluan simulasi analisis.
+Data yang digunakan dalam proyek ini adalah data sintetis yang disusun untuk mensimulasikan hubungan antara deforestasi, biomassa, ekspor kayu, dan denda ekspor ilegal di Indonesia.
 
-Data dikompilasi dalam file berikut ![data-deforestasi-dan-biomassa] (https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/data-deforestasi-dan-biomassa.csv)
+Penggunaan data sintetis dilakukan karena:
+
+- Data publik yang lengkap dan terstruktur sulit diakses, khususnya untuk rentang tahun 2010–2024.
+
+- Beberapa data bersifat terbatas, tersebar di berbagai sumber, atau tidak tersedia secara terbuka.
+
+namun data ini tetap mempertimbangkan beberapa hal seperti :
+
+- Struktur dan variabel yang menyerupai data nyata, seperti tahun, provinsi, luas hutan hilang, emisi CO₂, dan nilai ekspor.
+
+- Pola tren berdasarkan referensi literatur dan laporan resmi
+  
+- Hubungan logis antar variabel, misalnya: semakin tinggi deforestasi, semakin besar biomassa hilang dan potensi emisi.
+
+
+Data dikompilasi dalam file berikut ![data-deforestasi-dan-biomassa](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/data-deforestasi-dan-biomassa.csv)
+
 
 ---
 
