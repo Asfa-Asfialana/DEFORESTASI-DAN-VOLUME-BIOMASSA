@@ -1,6 +1,6 @@
 # 🌲 Korelasi Deforestasi dan Volume Biomassa
 
-! [FOREST](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
+![FOREST](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
 
 -----
 Halo sobat ETL ku dimanapun berada, repositori kali ini berisi weektask yang mengambil kasus Deforestasi dan Volume Biomassa. 
