@@ -3,9 +3,15 @@
 ![FOREST](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/FOREST.gif)
 
 -----
-Halo sobat ETL ku dimanapun berada, repositori kali ini berisi weektask yang mengambil kasus Deforestasi dan Volume Biomassa. 
 
-Analisis ini bertujuan untuk membantu upaya Indonesia dalam Transisi Hijau. Hasil analisis ini diharapkan mampu digunakan untuk mendorong kebijakan berkelanjutan, memantau emisi, dan memastikan penggunaan sumber daya yang tidak merusak lingkungan.
+## 🌳 Halo Sobat ETL! Selamat datang di repositori "Analisis Deforestasi & Biomassa" 🌱
+
+Proyek ini dibuat dalam menyelesaikan week task, agar kita lebih yang peduli lingkungan dan tertarik dengan data! Di sini kita akan mengulas hubungan antara **deforestasi** dan **volume biomassa** di Indonesia dari tahun 2010 hingga 2024.
+
+Kenapa ini penting? Karena biomassa punya potensi besar sebagai energi hijau, tapi deforestasi bisa bikin cadangan biomassa menurun drastis. Lewat analisis data dan visualisasi, kita coba cari tahu seberapa besar dampaknya, dan bagaimana data ini bisa bantu mendukung **transisi energi hijau** yang adil dan berkelanjutan.
+
+Yuk, kita gali bareng-bareng! Semoga proyek ini bisa jadi referensi, inspirasi, atau bahkan langkah awal untuk ide besar berikutnya untuk kita semua🌏✨
+
 
 ---
 
