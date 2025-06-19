@@ -185,15 +185,52 @@ Dan berikut hasil analisis regresi yang kita dapatkan dari data generate sebelum
 
 - R-squared: 0.00
 
-## 4. Penjelasan
+## 📚 4. Penjelasan
 
-Untuk memudahkan dalam memahami hasil analisis yang sudah dilakukan sebelumnya maka visualisasi data menjadi pilihan terbaik untuk menampilkan data secara visual. 
+#### 1. Korelasi Deforestasi - Biomassa
 
+Secara ekologis, biomassa hutan adalah jumlah total materi organik hidup dalam ekosistem hutan—terutama pohon dan tumbuhan yang menyimpan karbon. Deforestasi adalah proses kehilangan tutupan pohon alami secara permanen, baik karena aktivitas manusia maupun sebab alam.
 
+Dalam teori ekologi:
 
+“Semakin tinggi tingkat deforestasi, maka semakin rendah cadangan biomassa, karena pohon yang ditebang membawa karbon dan biomassa keluar dari ekosistem.” (Malhi et al., 2014; FAO, 2010)
 
+Namun hubungan ini tidak selalu linier atau kuat, karena dipengaruhi banyak faktor eksternal dan kebijakan. Beberapa faktor yang menyebabkan deforestasi adalah :
 
+- Faktor Ekonomi : pertambangan, pengalihan fungsi lahan menjadi perkebunan atau pertanian, pembangunan infarstruktur dll
+  
+- Faktor Sosial : Konflik agraria, perpindahan penduduk, kurangnya kesadaran lingkungan
+- 
+- Faktor Pemerintah : Hukum yang lemah, Kebijakan yang memicu eksploliasi, dan kurangnya program konservasi.
 
+Dalam analisis korelasi ini saya menggunakan batasan nilai korelasi Cohen’s Convention (1988). Cohen menyarankan:
 
+0.10 = kecil (small)
 
+0.30 = sedang (medium)
+
+0.50 = besar (large)
+
+Berikut hasil visualisasi data yang saya tampilkan dari hasil analisis korelasi deforestasi dan biomassa.
+
+![korelasi deforestasi-biomassa](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/korelasi%20deforestasi-biomassa.png)
+
+**Keterangan:**
+- Setiap titik merepresentasikan satu tahun pengamatan.
+- Terlihat pola bahwa saat deforestasi meningkat, nilai biomassa cenderung menurun.
+- Hasil perhitungan korelasi adalah **-0.31**, menunjukkan hubungan **negatif lemah** antara keduanya.
+
+Berikut adalah penjelasan ilmiahnya dari hasil analisis yang didapatkan :
+
+1. Menurut FAO (2010), jenis dan intensitas penebangan menentukan seberapa banyak biomassa yang hilang. Jadi mungkin saja hanya penebangan selektif (selective logging) hanya menghilangkan sebagian pohon bernilai komersial, sedangkan vegetasi lain masih menyimpan cadangan biomassa.
+
+2. Menurut Gibbs et al. (2007), distribusi biomassa sangat bervariasi tergantung jenis ekosistem hutan. Jadi mungkin deforestasi terjadi di hutan dengan cadangan biomassa rendah, maka dampaknya terhadap total biomassa tidak besar.
+
+3. Penurunan biomassa juga bisa disebabkan oleh faktor non-deforestasi, seperti:
+
+- Musim kemarau ekstrem
+
+- Kebakaran hutan alami
+
+- Hama dan penyakit
 
