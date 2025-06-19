@@ -264,6 +264,63 @@ Beberapa faktor yang memungkinkah hal ini terjadi adalah :
 
 > Korelasi yang hampir nol menunjukkan bahwa **denda ekspor tidak efektif secara langsung dalam menekan deforestasi** dalam data ini. Upaya menurunkan deforestasi memerlukan kebijakan yang lebih menyeluruh: moratorium izin, peningkatan pengawasan, hingga insentif konservasi untuk masyarakat dan pelaku industri.
 
+#### 3. HeatMap Korelasi
+
+Nah sobat ETL langkah selanjutnya sebelum masuk ke analisis regresi adalah kita akan melihat hubungan antara deforestasi, biomassa, dan kebijakan ekspor. Melihat bagaimana setiap variabel saling memengaruhi satu sama lain. 
+
+![matrikskorelasi](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/matrikskorelasi.png)
+
+Dari hasil visualisasi data diatas maka dapat kita lihat bahwa 
+
+1. Tahun – Denda_Ekspor_USD_juta berkorelasi sebesar  0.89 : Kuat positif → tren kenaikan denda setiap tahun
+2. Deforestasi_ha – Biomassa_ton_ha berkorelasi sebesar –0.31 : Lemah-negatif → deforestasi cenderung mengurangi biomassa
+3. Denda_Ekspor – Deforestasi berkorelasi sebesar 0.019 : Hampir nol → tidak berkaitan secara langsung
+4. Ekspor_Kayu – Denda berkorelasi sebesar 0.16 : Sangat lemah positif
+5. Deforestasi – Ekspor_Kayu berkorelasi sebesar 0.084  : Tidak signifikan    
+
+#### 4. Analisis Regresi
+
+Dari hasil analisis korelasi maka proyek ini dilanjutkan untuk analisis regresi. Analisis ini penting untuk melihat seberapa pengaruh variabel denda_ekspor dengan deforestasi. 
+Meskipun Korelasi sangat lemah, tapi regresi bisa mengevaluasi kegagalan kebijakan: apakah denda menjadi solusi efektif atau tidak efektif.
+Dari hasil analisis berdasarkan generate data yang telah dilakukan, maka hasil uji regresi adalah :
+```
+Koefisien Regresi: 4.57
+Intercept: 211211.68
+R-squared: 0.00
+```
+Dapat dilihat bahwa hasil uji regresi sangat lemah yang memungkin beberapa alasan yang menjadi penyebabnya :
+1. Penegakan Denda Tidak Efektif, Banyak kasus denda tidak dibayar, tidak ditindaklanjuti, atau jumlahnya kecil dibanding keuntungan ekonomi dari ekspor kayu ilegal. Menurut WALHI (2022): "Hanya 8% pelaku ilegal logging dikenai sanksi hukum tegas."
+2. Data denda hanya mencakup pelanggaran yang terdeteksi → padahal banyak kasus tidak tercatat
+3. Data bersifat sintetis
 
 
+## Implementasi Kebijakan
+
+Berdasarkan hasil analisis regresi dan korelasi yang menunjukkan bahwa **denda ekspor tidak berpengaruh signifikan terhadap deforestasi, maka **implementasi kebijakan yang lebih menyeluruh dan multisektor** sangat diperlukan.
+
+#### 🏛️ 1. **Sektor Pemerintah**
+
+* Perkuat sistem penegakan hukum agar **denda tidak hanya simbolis**, tetapi benar-benar menimbulkan efek jera.
+* Gunakan mekanisme **pengawasan berbasis satelit dan AI** (seperti GFW, FLEGT) untuk deteksi dini dan transparansi pelanggaran.
+* Denda yang meningkat progresif + black list ekspor
+
+📚 *Contoh implementasi kebijakan yang bisa dicontoh : 
+[Vietnam–EU VPA/FLEGT overview (Vietnam Briefing)](https://www.vietnam-briefing.com/news/eu-deforestation-regulations-vietnam.html)
+[Forest Trends: Vietnam Timber Legality Assurance (Decree 102/2020)](https://www.forest-trends.org/publications/vietnam-timber-legality-risk-dashboard/)
+
+
+#### 🧑‍🌾 2. **Masyarakat Lokal dan Komunitas Adat**
+
+* Memberi kompensasi kepada masyarakat yang menjaga hutan.
+* Percepat legalisasi hak kelola hutan untuk masyarakat adat dan lokal.
+* Dampaknya: hutan dikelola secara berkelanjutan → lebih tahan terhadap tekanan deforestasi.
+
+
+#### 🏢 3. **Sektor Swasta dan Industri**
+
+* Wajibkan seluruh perusahaan mengikuti **Sistem Verifikasi Legalitas Kayu (SVLK)** secara ketat.
+* Diberi insentif ekspor hanya untuk pelaku bersertifikat.
+* Gunakan sumber kayu dari **Hutan Tanaman Industri (HTI)** dan bukan dari konversi hutan alam.
+* Terapkan prinsip **No Deforestation, No Peat, No Exploitation (NDPE)**
+* Libatkan swasta dalam proyek **reforestasi dan rehabilitasi DAS** sebagai bagian dari tanggung jawab sosial perusahaan (CSR).
 
