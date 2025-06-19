@@ -247,49 +247,23 @@ Namun, efektivitas kebijakan ini sangat tergantung pada:
 * Keterbukaan pasar ekspor
 * Kekuatan aktor swasta dan politik
 
-![korelasi denda-jumlah](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/korelasi%20denda-jumlah.png)
-
 * Korelasi antara **Denda Ekspor (USD juta)** dan **Deforestasi (ha)**:
   `r = 0.02` → **sangat lemah, hampir tidak ada hubungan**
 
 * Visualisasi hubungan:
 
-![Grafik Denda Ekspor vs Deforestasi](./korelasi%20denda-jumlah.png)
+![korelasi denda-jumlah](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/korelasi%20denda-jumlah.png)
+
 📎 *Garis tren datar dan interval kepercayaan lebar menunjukkan bahwa kenaikan denda tidak diikuti perubahan deforestasi yang konsisten.*
 
----
+Beberapa faktor yang memungkinkah hal ini terjadi adalah :
 
-### 🔍 Interpretasi Ilmiah
-
-| Faktor                         | Penjelasan                                                                                                     |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| **Denda tidak konsisten**      | Banyak pelaku tidak membayar denda atau mendapat sanksi ringan saja (WALHI, 2022).                             |
-| **Volume ekspor tetap tinggi** | Denda hanya dikenakan pada pelanggaran, bukan pada ekspor legal yang juga bisa menimbulkan deforestasi.        |
-| **Faktor lain lebih dominan**  | Permintaan global kayu, konversi lahan sawit, tambang, dan infrastruktur lebih berdampak terhadap deforestasi. |
-| **Data sintetis**              | Data yang digunakan bersifat buatan (simulasi), sehingga pola hubungan tidak sekuat data lapangan.             |
-
----
-
-### 📌 Kesimpulan
+1. Banyak pelaku tidak membayar denda atau mendapat sanksi ringan saja (WALHI, 2022).
+2. Denda hanya dikenakan pada pelanggaran, bukan pada ekspor legal yang juga bisa menimbulkan deforestasi.
+3. Permintaan global kayu, konversi lahan sawit, tambang, dan infrastruktur lebih berdampak terhadap deforestasi
 
 > Korelasi yang hampir nol menunjukkan bahwa **denda ekspor tidak efektif secara langsung dalam menekan deforestasi** dalam data ini. Upaya menurunkan deforestasi memerlukan kebijakan yang lebih menyeluruh: moratorium izin, peningkatan pengawasan, hingga insentif konservasi untuk masyarakat dan pelaku industri.
 
----
 
-### 📚 Referensi
 
-* FAO (2020). *Global Forest Resources Assessment*
-* CIFOR (2020). *Forest Law Enforcement in Southeast Asia*
-* WALHI (2022). *Tinjauan Lingkungan Hidup Indonesia*
-* IPB – PSILHK (2021). *Kajian Deforestasi dan Penegakan Hukum*
-
----
-
-Jika kamu ingin saya bantu:
-
-* Menyusun bagian kesimpulan akhir
-* Menyatukan semua bab di README GitHub
-* Atau meng-export sebagai PDF laporan
-
-Katakan saja ya!
 
