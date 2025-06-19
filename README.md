@@ -107,9 +107,12 @@ data = pd.DataFrame({
     'Ekspor_Kayu_ton': timber_export
 })
 
-print(data)
+print(data) ```
 
------
+---
 
-## 3. Analisis Korelasi dan Regresi
+### Analisis Korelasi dan Regresi
+
+
+
 
