@@ -116,7 +116,9 @@ Berikut adalah data hasil genetare yang dihasilkan melalui kode python diatas :
 
 ---
 
-### Analisis Korelasi dan Regresi
+## 3. Analisis Korelasi dan Regresi
+
+#### 1. Analisis Korelasi
 
 Sobat ETL ku, dalam analisis korelasi dan regresi aku menggunakan beberapa library yaitu Pandas, NumPy, Matplotlib, dan Seaborn untuk analisis data.
 
@@ -153,3 +155,45 @@ Dan hasil yang didapatkan setelah melakukan analisis korelasi antara semua varia
 | **Biomassa\_ton\_ha**        | 0.119  | -0.306          | 1.000             | 0.189                    | 0.099             |
 | **Denda\_Ekspor\_USD\_juta** | 0.889  | 0.019           | 0.189             | 1.000                    | 0.160             |
 | **Ekspor\_Kayu\_ton**        | 0.213  | 0.084           | 0.099             | 0.160                    | 1.000             |
+
+
+#### 2. Analisis Regresi
+
+Setelah melakukan analisis korelasi, kemudia kita lanjut menganalisis regresi. Kode python yang digunakan dalam analisis ini adalah :
+
+```
+from sklearn.linear_model import LinearRegression
+
+# Regresi Denda Ekspor vs Deforestasi
+X = data[['Denda_Ekspor_USD_juta']]
+y = data['Deforestasi_ha']
+model = LinearRegression().fit(X, y)
+
+print(f"Koefisien Regresi: {model.coef_[0]:.2f}")
+print(f"Intercept: {model.intercept_:.2f}")
+print(f"R-squared: {model.score(X, y):.2f}")
+
+# Prediksi
+predicted = model.predict(X)
+```
+
+Dan berikut hasil analisis regresi yang kita dapatkan dari data generate sebelumnya ;
+
+- Koefisien Regresi: 4.57
+
+- Intercept: 211211.68
+
+- R-squared: 0.00
+
+## 4. Penjelasan
+
+Untuk memudahkan dalam memahami hasil analisis yang sudah dilakukan sebelumnya maka visualisasi data menjadi pilihan terbaik untuk menampilkan data secara visual. 
+
+
+
+
+
+
+
+
+
