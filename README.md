@@ -66,31 +66,45 @@ Penggunaan data sintetis dilakukan karena:
 
 namun data ini tetap mempertimbangkan beberapa hal seperti :
 
-- Struktur dan variabel yang menyerupai data nyata, seperti tahun, provinsi, luas hutan hilang, emisi CO₂, dan nilai ekspor.
+- Struktur dan variabel yang menyerupai data nyata, seperti tahun, deforestasi (ha), biomassa (ton/ha), denda ekspor (USD Juta) dan ekspor kayu (ton)
 
 - Pola tren berdasarkan referensi literatur dan laporan resmi
   
 - Hubungan logis antar variabel, misalnya: semakin tinggi deforestasi, semakin besar biomassa hilang dan potensi emisi.
 
+#### 🔧 Cara Generate Data
 
-Data dikompilasi dalam file berikut ![data-deforestasi-dan-biomassa](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/data-deforestasi-dan-biomassa.csv)
+Data dibangkitkan menggunakan Python (`pandas`, `numpy`) dengan rentang waktu tahun **2010–2024**. Berikut adalah batasan dan asumsi yang saya terapkan:
 
+### 📌 Batasan dan Asumsi
 
----
+| Variabel                 | Penjelasan                                                                 |
+|--------------------------|----------------------------------------------------------------------------|
+| `Deforestasi_ha`         | Dibuat dengan nilai acak antara 6.000–12.000 ha, kemudian ditambahkan tren tahunan linear (×100/tahun) untuk mensimulasikan kenaikan deforestasi. |
+| `Biomassa_ton_ha`        | Dibuat dari distribusi acak `uniform` antara 100–600 ton/ha, **dengan tren menurun** agar mencerminkan degradasi biomassa akibat deforestasi. |
+| `Denda_Ekspor_USD_juta` | Nilai acak 10–25 juta USD, lalu ditambah tren tetap sebesar 2 juta per tahun dari 2010, mensimulasikan kebijakan yang makin ketat. |
+| `Ekspor_Kayu_ton`        | Nilai acak antara 2.000–5.000 ton, ditambah pertumbuhan 50 ton per tahun, untuk merefleksikan peningkatan permintaan dan produksi ekspor. |
 
-### 🧪 Kode Python Analisis
-
-Nah sobat ETL, kali ini saya akan menganalisis deforestasi dan biomassa dengan menggunakan library Pandas, Numpy, Matplotlib, dan Seaborn.
-
+#### 🧪 Kode Generate Data
 
 ```python
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
+import numpy as np
 
-# Load data
-df = pd.read_csv('biomassa_deforestasi_sumatera.csv')
+np.random.seed(42)
+years = np.arange(2010, 2025)
 
-# Korelasi
-correlation = df['biomass_loss'].corr(df['tree_cover_loss'])
-print(f"Korelasi antara deforestasi dan kehilangan biomassa: {correlation:.2f}")
+deforestation = np.random.randint(6000, 12000, size=15) + years*100
+biomass = np.random.uniform(600, 100, size=15).round(2)  # tren menurun
+export_fine = np.random.randint(10, 25, size=15) + (years - 2010)*2
+timber_export = np.random.randint(2000, 5000, size=15) + (years - 2010)*50
+
+data = pd.DataFrame({
+    'Tahun': years,
+    'Deforestasi_ha': deforestation,
+    'Biomassa_ton_ha': biomass,
+    'Denda_Ekspor_USD_juta': export_fine,
+    'Ekspor_Kayu_ton': timber_export
+})
+
+print(data)
