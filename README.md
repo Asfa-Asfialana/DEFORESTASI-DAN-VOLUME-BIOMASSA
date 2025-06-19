@@ -107,12 +107,49 @@ data = pd.DataFrame({
     'Ekspor_Kayu_ton': timber_export
 })
 
-print(data) ```
+print(data)
+```
+
+Berikut adalah data hasil genetare yang dihasilkan melalui kode python diatas :
+
+
 
 ---
 
 ### Analisis Korelasi dan Regresi
 
+Sobat ETL ku, dalam analisis korelasi dan regresi aku menggunakan beberapa library yaitu Pandas, NumPy, Matplotlib, dan Seaborn untuk analisis data.
 
+Berikut adalah kode Python yang aku gunakan :
 
+```python
+# Hitung korelasi antara deforestasi dan biomassa
+corr_biomass_defor = data['Deforestasi_ha'].corr(data['Biomassa_ton_ha'])
+print(f"Korelasi Deforestasi-Biomassa: {corr_biomass_defor:.2f}")
+```
 
+Dan nilai yang didapatkan dari hasil analisis korelasi deforestasi dan biomassa adalah : -0.31
+
+```python
+# Korelasi antara denda ekspor dan deforestasi
+corr_fine_defor = data['Denda_Ekspor_USD_juta'].corr(data['Deforestasi_ha'])
+print(f"Korelasi Denda Ekspor-Deforestasi: {corr_fine_defor:.2f}")
+```
+
+Dan hasil yang didapatkan dari hasil analisis Korelasi Denda Ekspor-Deforestasi: 0.02
+
+```python
+# Korelasi antara semua variabel
+correlation_matrix = data.corr()
+print("\nMatriks Korelasi:")
+print(correlation_matrix)
+```
+
+Dan hasil yang didapatkan setelah melakukan analisis korelasi antara semua variabel adalah :
+|                              | Tahun  | Deforestasi\_ha | Biomassa\_ton\_ha | Denda\_Ekspor\_USD\_juta | Ekspor\_Kayu\_ton |
+| ---------------------------- | ------ | --------------- | ----------------- | ------------------------ | ----------------- |
+| **Tahun**                    | 1.000  | -0.013          | 0.119             | 0.889                    | 0.213             |
+| **Deforestasi\_ha**          | -0.013 | 1.000           | -0.306            | 0.019                    | 0.084             |
+| **Biomassa\_ton\_ha**        | 0.119  | -0.306          | 1.000             | 0.189                    | 0.099             |
+| **Denda\_Ekspor\_USD\_juta** | 0.889  | 0.019           | 0.189             | 1.000                    | 0.160             |
+| **Ekspor\_Kayu\_ton**        | 0.213  | 0.084           | 0.099             | 0.160                    | 1.000             |
