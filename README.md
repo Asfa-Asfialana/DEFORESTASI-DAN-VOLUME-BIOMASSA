@@ -15,7 +15,7 @@ Yuk, kita gali bareng-bareng! Semoga proyek ini bisa jadi referensi, inspirasi, 
 
 ---
 
-## 🧭 Pendahuluan
+## 🧭 1. Pendahuluan
 
 #### 📌 Latar Belakang
 
@@ -54,7 +54,7 @@ Biomassa adalah materi organik yang berasal dari makhluk hidup, seperti tanaman,
 
 ---
 
-### 🗂️ Pembuatan Data Set
+## 🗂️2. Pembuatan Data Set
 
 Data yang digunakan dalam proyek ini adalah data sintetis yang disusun untuk mensimulasikan hubungan antara deforestasi, biomassa, ekspor kayu, dan denda ekspor ilegal di Indonesia.
 
@@ -108,3 +108,8 @@ data = pd.DataFrame({
 })
 
 print(data)
+
+-----
+
+## 3. Analisis Korelasi dan Regresi
+
