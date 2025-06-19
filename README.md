@@ -305,8 +305,10 @@ Berdasarkan hasil analisis regresi dan korelasi yang menunjukkan bahwa **denda e
 * Denda yang meningkat progresif + black list ekspor
 
 📚 *Contoh implementasi kebijakan yang bisa dicontoh : 
-[Vietnam–EU VPA/FLEGT overview (Vietnam Briefing)](https://www.vietnam-briefing.com/news/eu-deforestation-regulations-vietnam.html)
-[Forest Trends: Vietnam Timber Legality Assurance (Decree 102/2020)](https://www.forest-trends.org/publications/vietnam-timber-legality-risk-dashboard/)
+
+- [Vietnam–EU VPA/FLEGT overview (Vietnam Briefing)](https://www.vietnam-briefing.com/news/eu-deforestation-regulations-vietnam.html)
+  
+- [Forest Trends: Vietnam Timber Legality Assurance (Decree 102/2020)](https://www.forest-trends.org/publications/vietnam-timber-legality-risk-dashboard/)
 
 
 #### 🧑‍🌾 2. **Masyarakat Lokal dan Komunitas Adat**
@@ -324,3 +326,8 @@ Berdasarkan hasil analisis regresi dan korelasi yang menunjukkan bahwa **denda e
 * Terapkan prinsip **No Deforestation, No Peat, No Exploitation (NDPE)**
 * Libatkan swasta dalam proyek **reforestasi dan rehabilitasi DAS** sebagai bagian dari tanggung jawab sosial perusahaan (CSR).
 
+## 5. Kesimpulan
+
+Dalam upaya pemerintah melakukan transisi energi hijau memang tidak mudah dan akan selalu menemukan tantangan. Kita exo techno leader sebagai generasi muda memegang peran penting dalam menjaga keberlanjutan hutan dan lingkungan. Melalui analisis sederhana ini, meskipun menggunakan data sintetis, kita telah menunjukkan bahwa data dapat menjadi alat kritis untuk memahami deforestasi, biomassa, dan efektivitas kebijakan. Studi ini tidak hanya menjadi contoh teknis, tetapi juga membuka ruang untuk riset lebih lanjut dengan data nyata sebagai fondasi perubahan kebijakan berbasis bukti.
+
+💡 SEMANGAT SOBAT ETL, SEMOGA RISET SEDERHANA KITA MENJADI LANGKAH UNTUK PERUBAHAN YANG LEBIH BESAR DI MASA DEPAN !
