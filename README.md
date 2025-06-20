@@ -110,7 +110,7 @@ data = pd.DataFrame({
 print(data)
 ```
 
-Berikut adalah data hasil genetare yang dihasilkan melalui kode python diatas :
+Berikut adalah data hasil genetare yang dihasilkan melalui kode python diatas :[data-deforestasi](
 
 
 
@@ -329,5 +329,7 @@ Berdasarkan hasil analisis regresi dan korelasi yang menunjukkan bahwa **denda e
 ## 5. Kesimpulan
 
 Dalam upaya pemerintah melakukan transisi energi hijau memang tidak mudah dan akan selalu menemukan tantangan. Kita exo techno leader sebagai generasi muda memegang peran penting dalam menjaga keberlanjutan hutan dan lingkungan. Melalui analisis sederhana ini, meskipun menggunakan data sintetis, kita telah menunjukkan bahwa data dapat menjadi alat kritis untuk memahami deforestasi, biomassa, dan efektivitas kebijakan. Studi ini tidak hanya menjadi contoh teknis, tetapi juga membuka ruang untuk riset lebih lanjut dengan data nyata sebagai fondasi perubahan kebijakan berbasis bukti.
+
+![alur-kesimpulan](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/alur-kesimpulan.png)
 
 💡 SEMANGAT SOBAT ETL, SEMOGA RISET SEDERHANA KITA MENJADI LANGKAH UNTUK PERUBAHAN YANG LEBIH BESAR DI MASA DEPAN !
