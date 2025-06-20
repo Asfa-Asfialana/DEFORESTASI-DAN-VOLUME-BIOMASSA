@@ -110,7 +110,7 @@ data = pd.DataFrame({
 print(data)
 ```
 
-Berikut adalah data hasil genetare yang dihasilkan melalui kode python diatas :[data-deforestasi](
+Berikut adalah data hasil genetare yang dihasilkan melalui kode python diatas :[data-deforestasi](https://github.com/Asfa-Asfialana/DEFORESTASI-DAN-VOLUME-BIOMASSA/blob/main/Diforestasi/data-deforestasi.csv)
 
 
 
